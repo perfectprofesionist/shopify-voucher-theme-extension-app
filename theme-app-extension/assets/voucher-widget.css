@@ -1,0 +1,570 @@
+/*all pages common css and product page modal*/
+.modal {
+	display: none; 
+	position: fixed; 
+	z-index: 99; 
+	padding-top: 100px; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%;  
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4); 
+	opacity: 1; 
+} 
+.modal-content {
+	background-color: #fefefe; 
+	margin: auto; 
+	padding: 1px 15px 20px 15px; 
+	border-radius: 0px; 
+	border-collapse: separate; 
+	width: 90%; 
+	max-width: 450px; 
+} 
+.close {
+	color: #aaaaaa; 
+	float: right; 
+	font-size: 28px; 
+	font-weight: bold; 
+} 
+#warrantySelectedModal .add-product-protection {
+	padding: 15px; 
+	border: unset; 
+	border-radius: 10px; 
+	margin-bottom: 15px; 
+	margin-top:40px !important;
+	text-align: center;
+} 
+#warrantySelectedModal .add-product-protection .Polaris-Stack {
+	max-width: 300px; 
+	margin: 10px auto; 
+	text-align: left; 
+} 
+#warrantySelectedModal .add-product-protection .Polaris-Stack .Polaris-Stack__Item .Polaris-Card {
+	padding: 8px; 
+} 
+#warrantySelectedModal .years p.year-bold {
+	font-size: 16px; 
+} 
+#warrantySelectedModal .years p {
+	font-size: 10px; 
+	font-weight: bold; 
+	line-height: normal; 
+} 
+#warrantySelectedModal img {
+	max-width: 150px; 
+	margin: 0 auto 10px; 
+} 
+#warrantySelectedModal h3.Polaris-Subheading {
+	font-weight: bold; 
+	font-size: 16px; 
+}
+.close:hover, .close:focus {
+	color: #000; 
+	text-decoration: none; 
+	cursor: pointer; 
+}
+.callto-action-container .add-product-protection {
+	margin: 15px 0; 
+}
+.Polaris-Heading {
+	font-size: 1.7rem; 
+	font-weight: 600; 
+	line-height: 2.4rem; 
+	margin: 0; 
+}
+[data-polaris-tooltip-activator] {
+	outline: 0; 
+	position: relative; 
+}
+.callto-action-container .Polaris-Stack {
+	margin-top: 0; 
+}
+.Polaris-Stack--distributionFill > .Polaris-Stack__Item {
+	-moz-box-flex: 1; 
+	flex: 1 1 auto; 
+}
+.Polaris-Stack > .Polaris-Stack__Item {
+	margin-top: 1.6rem; 
+	margin-left: 1.6rem; 
+	max-width: 100%; 
+}
+.Polaris-Stack__Item {
+	-moz-box-flex: 0; 
+	flex: 0 0 auto; 
+	min-width: 0; 
+}
+.Polaris-Card {
+	background-color: var(--p-surface); 
+	-webkit-box-shadow: var(--p-card-shadow); 
+	box-shadow: var(--p-card-shadow); 
+	outline: 0.1rem solid transparent; 
+	cursor: pointer !important;
+}
+.Polaris-Card__Section:last-child {
+	border-bottom-left-radius: var(--p-border-radius-wide); 
+	border-bottom-right-radius: var(--p-border-radius-wide); 
+}
+.Polaris-Card__Section:first-child {
+	border-top-left-radius: var(--p-border-radius-wide); 
+	border-top-right-radius: var(--p-border-radius-wide); 
+}
+.Polaris-Subheading {
+	font-size: 14px; 
+	font-weight: 400; 
+}
+.Polaris-TextContainer > *:not(:first-child) {
+	margin-top: 1.6rem; 
+}
+h2, p {
+	color: #333333; 
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0; 
+	font-size: 1em; 
+	font-weight: 400;
+}
+.add-product-protection .Polaris-Stack {
+	display: flex; 
+} 
+.add-product-protection .Polaris-Stack .Polaris-Stack__Item:first-child {
+	margin-left: 0; 
+} 
+.add-product-protection .Polaris-Stack .Polaris-Stack__Item {
+	margin-left: 10px; 
+} 
+.add-product-protection .Polaris-Stack .Polaris-Stack__Item .Polaris-Card {
+	padding: 10px; 
+} 
+.add-product-protection {
+	padding: 15px;
+} 
+.add-product-protection .single-blk { 
+	border: 1px solid #dedede; 
+	border-radius: 5px;
+}
+.add-product-protection h3 {
+	font-size: 14px; 
+	line-height: normal;
+} 
+.add-product-protection h2 {
+	font-size: 20px;
+	line-height: normal; 
+} 
+#warrantySelectedModal .list-area ul {
+	padding: 0; 
+	margin: 20px auto; 
+	column-count: 2; 
+	text-align: left; 
+	list-style-type: none; 
+	max-width: 300px; 
+	font-size: 11px; 
+} 
+#warrantySelectedModal .list-area ul li {
+	padding-left: 15px; 
+	position: relative; 
+} 
+#warrantySelectedModal .list-area ul li::before { 
+	content: "✔"; 
+	position: absolute; 
+	left: 0; 
+	font-weight: bold;
+} 
+#warrantySelectedModal .list-area ul li:last-child::before { 
+	content: unset
+} 
+#warrantySelectedModal .list-area ul li a {
+	color: inherit; 
+} 
+.add-product-protection p {
+	font-size: 12px; 
+} 
+.btns-area {
+	display: flex; 
+	margin: 20px auto 0; 
+	flex-direction: column; 
+}
+.btns-area  button.Polaris-Button.Polaris-Button--outline.Polaris-Button--monochrome.Polaris-Button--halfWidth {
+	display: inline-block; 
+	background: transparent;  
+	padding: 5px 10px; 
+	border-radius: 5px; 
+	margin: 5px auto; 
+	min-width: 250px;
+	cursor: pointer; 
+	position: relative; 
+	transition: all 1s ease; 
+	overflow: hidden;
+} 
+.btns-area  button.Polaris-Button.Polaris-Button--outline.Polaris-Button--monochrome.Polaris-Button--halfWidth.hovered, .btns-area  button.Polaris-Button.Polaris-Button--outline.Polaris-Button--monochrome.Polaris-Button--halfWidth:hover {  
+	color: #fff;
+}   
+.warranty_selected { 
+	color: rgb(255, 182, 0); 
+	border-radius: 6px; 
+}
+p#AddToCartBtnWithoutWaranty {
+	margin: 5px auto; cursor: pointer; 
+}
+@media (max-width: 480px) {
+	.modal-content {
+		padding: 10px;
+	}
+}
+
+/*all pages common css and product page modal*/
+
+/*product page*/
+#warrantySelected {
+	padding: 15px;  
+	border-radius: 10px; 
+	margin-bottom: 15px; 
+	margin-top:15px;
+}  
+.add-product-protection h3.Polaris-Subheading, .add-product-protection .Polaris-Card p {
+	margin: 0; 
+} 
+.add-product-protection .Polaris-Stack.Polaris-Stack--vertical {
+	flex-direction: column; 
+} 
+.add-product-protection .Polaris-Stack.Polaris-Stack--vertical .Polaris-Stack__Item {
+	margin-left: 0 !important; 
+	margin-bottom: 10px; 
+	margin-top: 0;
+}
+.vertical-selected-protection h2 {
+	margin-bottom: 20px;
+} 
+/*radio prompt*/ 
+.add-product-protection p, .add-product-protection label {
+	font-size: 12px; 
+}
+.add-product-protection .Polaris-Stack .Polaris-Stack__Item .Polaris-Card .Polaris-Choice__Control {
+	margin-right: 5px; 
+}
+.add-product-protection .Polaris-Stack .Polaris-Stack__Item .Polaris-Card .Polaris-RadioButton {
+	position: relative; 
+	top: 2.5px; 
+} 
+/*radio prompt*/
+/*single prompt*/
+.single-prompt button.single-blk {
+	display: inline-block; 
+	width: 100%; 
+	border: 2px solid #dedede; 
+	background: transparent; 
+	color: #000000; 
+	padding: 15px 10px; 
+	border-radius: 5px; 
+} 
+.single-prompt button.warranty_selected {
+	display: inline-block; 
+	width: 100%;  
+	background: transparent; 
+	padding: 15px 10px; 
+	border-radius: 5px; 
+}
+/*single prompt*/
+/*product page*/
+
+/*cart page*/
+#warrantyProdSelectedModal .modal {
+	display: none; 
+	position: fixed; 
+	z-index: 99; 
+	padding-top: 100px; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4); 
+	opacity: 1; 
+} 
+#warrantyProdSelectedModal .modal-content {
+	background-color: #fefefe; 
+	margin: auto; 
+	padding: 1px 15px 20px 15px;
+	border-radius: 10px; 
+	border-collapse: separate; 
+	width: 90%; 
+	max-width: 75%; 
+} 
+#warrantyProdSelectedModal .close {
+	color: #aaaaaa; 
+	float: right; 
+	font-size: 28px; 
+	font-weight: bold; 
+} 
+#warrantyProdSelectedModal .close:hover, .close:focus {
+	color: #000; 
+	text-decoration: none; 
+	cursor: pointer; 
+}
+.callto-action-container #warrantyProdSelectedModal  {
+	margin: 15px 0; 
+}
+#warrantyProdSelectedModal .Polaris-Heading {
+	font-size: 1.7rem; 
+	font-weight: 600; 
+	line-height: 2.4rem; 
+	margin: 0; 
+}
+[data-polaris-tooltip-activator] {
+	outline: 0; 
+	position: relative; 
+}
+#warrantyProdSelectedModal .Polaris-Stack {
+	margin-top: 0; 
+}
+#warrantyProdSelectedModal .Polaris-Stack--distributionFill > .Polaris-Stack__Item {
+	-moz-box-flex: 1; 
+	flex: 1 1 auto; 
+}
+#warrantyProdSelectedModal .Polaris-Stack > .Polaris-Stack__Item {
+	margin-top: 1.6rem; 
+	margin-left: 1.6rem; 
+	max-width: 100%; 
+}
+#warrantyProdSelectedModal .Polaris-Stack__Item {
+	-moz-box-flex: 0; 
+	flex: 0 0 auto; 
+	min-width: 0; 
+}
+#warrantyProdSelectedModal .Polaris-Card {
+	background-color: var(--p-surface); 
+	-webkit-box-shadow: var(--p-card-shadow); 
+	box-shadow: var(--p-card-shadow); 
+	outline: 0.1rem solid transparent; 
+}
+#warrantyProdSelectedModal .Polaris-Card__Section:last-child {
+	border-bottom-left-radius: var(--p-border-radius-wide); 
+	border-bottom-right-radius: var(--p-border-radius-wide); 
+}
+#warrantyProdSelectedModal .Polaris-Card__Section:first-child {
+	border-top-left-radius: var(--p-border-radius-wide); 
+	border-top-right-radius: var(--p-border-radius-wide); 
+}
+#warrantyProdSelectedModal .Polaris-Subheading {
+	font-size: 14px; 
+	font-weight: 400; 
+}
+#warrantyProdSelectedModal .Polaris-TextContainer > *:not(:first-child) {
+	margin-top: 1.6rem; 
+}
+#warrantyProdSelectedModal h2, p {
+	color: #333333; 
+}
+#warrantyProdSelectedModal h1, h2, h3, h4, h5, h6, p {
+	margin: 0; 
+	font-size: 1em; 
+	font-weight: 400;
+} 
+#warrantyProdSelectedModal .Polaris-Stack .Polaris-Stack__Item:first-child {
+	margin-left: 0; 
+} 
+#warrantyProdSelectedModal .Polaris-Stack .Polaris-Stack__Item {
+	margin-left: 10px; 
+} 
+#warrantyProdSelectedModal .Polaris-Stack .Polaris-Stack__Item .Polaris-Card {
+	padding: 10px; 
+}  
+#warrantyProdSelectedModal .single-blk { 
+	border: 1px solid #dedede; 
+	border-radius: 5px;
+}
+#warrantyProdSelectedModal  h3 {
+	font-size: 14px; 
+	line-height: normal;
+} 
+#warrantyProdSelectedModal  h2 {
+	font-size: 20px;
+	line-height: normal; 
+} 
+#warrantyProdSelectedModal  p {
+	font-size: 12px; 
+} 
+#warrantyProdSelectedModal .btns-area {
+	display: flex; 
+	flex-direction: column; 
+	margin: 0 !important;
+	margin-top: 4px !important;
+}
+#warrantyProdSelectedModal .btns-area  button.Polaris-Button.Polaris-Button--outline.Polaris-Button--monochrome.Polaris-Button--halfWidth {
+	display: inline-block;  
+	background: transparent; 
+	padding: 5px 10px; 
+	border-radius: 5px; 
+	margin: 5px auto; 
+	min-width: 250px;
+} 
+@media (max-width: 480px) {
+	#warrantyProdSelectedModal .modal-content {
+		padding: 10px;
+	}
+} 
+#warrantyProdSelectedModal .warranty_selected { 
+	color: rgb(255, 182, 0);  
+	border-radius: 6px; 
+}
+#warrantyProdSelectedModal .Polaris-Stack {
+	display: flex;
+	align-items: center; 
+	justify-content: space-between; 
+} 
+#warrantyProdSelectedModal {
+	padding: 15px; 
+	border-radius: 10px; 
+	margin-bottom: 15px; 
+	margin-top: 15px;
+}
+#warrantyProdSelectedModal .Polaris-Stack__Item-right {
+	display: flex; 
+	flex-wrap: wrap; 
+}
+#warrantyProdSelectedModal .Polaris-Stack__Item-right select {
+	border: 2px solid #dedede; 
+	margin: 5px 10px 5px 0; 
+	border-radius: 5px; 
+	padding: 5px 20px; 
+	line-height: normal; 
+	height: 38px; 
+} 
+@media (max-width: 750px) {
+	#warrantyProdSelectedModal .Polaris-Stack {
+		align-items: flex-start; 
+		justify-content: space-between; 
+		flex-direction: column; 
+	}
+	#warrantyProdSelectedModal .Polaris-Stack__Item-right {
+		margin: 15px 0 0; 
+	}
+}
+/*cart page*/
+/*set protection button*/
+.callto-action-container #anycoverCartWidgetBtn {
+	margin: 15px 0; 
+}
+#anycoverCartWidgetBtn .Polaris-Heading {
+	font-size: 1.7rem; 
+	font-weight: 600; 
+	line-height: 2.4rem; 
+	margin: 0; 
+}
+[data-polaris-tooltip-activator] {
+	outline: 0; 
+	position: relative; 
+}
+#anycoverCartWidgetBtn  .Polaris-Stack {
+	margin-top: 0; 
+}
+#anycoverCartWidgetBtn .Polaris-Stack--distributionFill > .Polaris-Stack__Item {
+	-moz-box-flex: 1; 
+	flex: 1 1 auto; 
+}
+#anycoverCartWidgetBtn .Polaris-Stack > .Polaris-Stack__Item {
+	margin-top: 1.6rem; 
+	margin-left: 1.6rem; 
+	max-width: 100%; 
+}
+#anycoverCartWidgetBtn .Polaris-Stack__Item {
+	-moz-box-flex: 0; 
+	flex: 0 0 auto; 
+	min-width: 0; 
+}
+#anycoverCartWidgetBtn .Polaris-Card {
+	background-color: var(--p-surface); 
+	-webkit-box-shadow: var(--p-card-shadow); 
+	box-shadow: var(--p-card-shadow); 
+	outline: 0.1rem solid transparent;
+}
+#anycoverCartWidgetBtn .Polaris-Card__Section:last-child {
+	border-bottom-left-radius: var(--p-border-radius-wide); 
+	border-bottom-right-radius: var(--p-border-radius-wide); 
+}
+#anycoverCartWidgetBtn .Polaris-Card__Section:first-child {
+	border-top-left-radius: var(--p-border-radius-wide); 
+	border-top-right-radius: var(--p-border-radius-wide); 
+}
+#anycoverCartWidgetBtn .Polaris-Subheading {
+	font-size: 14px; 
+	font-weight: 400; 
+}
+#anycoverCartWidgetBtn .Polaris-TextContainer > *:not(:first-child) {
+	margin-top: 1.6rem; 
+}
+#anycoverCartWidgetBtn h2, p {
+	color: #333333; 
+}
+#anycoverCartWidgetBtn h1, h2, h3, h4, h5, h6, p {
+	margin: 0; 
+	font-size: 1em; 
+	font-weight: 400;
+}
+#anycoverCartWidgetBtn  .Polaris-Stack {
+	display: flex;
+	align-items: center; 
+	justify-content: space-between; 
+} 
+#anycoverCartWidgetBtn  .Polaris-Stack .Polaris-Stack__Item:first-child {
+	margin-left: 0; 
+} 
+#anycoverCartWidgetBtn  .Polaris-Stack .Polaris-Stack__Item {
+	margin-left: 10px; 
+} 
+#anycoverCartWidgetBtn .Polaris-Stack .Polaris-Stack__Item .Polaris-Card {
+	padding: 10px; 
+} 
+#anycoverCartWidgetBtn  {
+	padding: 15px; 
+	border-radius: 10px; 
+	margin-bottom: 15px; 
+	margin-top:15px;
+} 
+#anycoverCartWidgetBtn  .single-blk { 
+	border: 1px solid #dedede; 
+	border-radius: 5px;
+}
+#anycoverCartWidgetBtn  h3 {
+	font-size: 14px;
+	line-height: normal; 
+} 
+#anycoverCartWidgetBtn  h2 {
+	font-size: 20px;
+	line-height: normal; 
+} 
+#anycoverCartWidgetBtn  p {
+	font-size: 12px; 
+}
+#anycoverCartWidgetBtn .btns-area  button.Polaris-Button.Polaris-Button--outline.Polaris-Button--monochrome.Polaris-Button--halfWidth {
+	display: inline-block; 
+	background: transparent;  
+	padding: 5px 10px; 
+	border-radius: 5px; 
+	margin: 5px auto; 
+}
+#anycoverCartWidgetBtn .Polaris-Stack__Item-right {
+	display: flex; 
+	flex-wrap: wrap; 
+}
+#anycoverCartWidgetBtn .Polaris-Stack__Item-right select {
+	border: 2px solid #dedede; 
+	margin: 5px 10px 5px 0; 
+	border-radius: 5px; 
+	padding: 5px 20px; 
+	line-height: normal; 
+	height: 38px; 
+} 
+@media (max-width: 750px) {
+	#anycoverCartWidgetBtn  .Polaris-Stack {
+		align-items: flex-start; 
+		justify-content: space-between; 
+		flex-direction: column; 
+	}
+	#anycoverCartWidgetBtn .Polaris-Stack__Item-right {
+		margin: 15px 0 0; 
+	}
+}
+/*set protection button*/
