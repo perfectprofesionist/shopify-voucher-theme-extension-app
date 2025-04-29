@@ -37,3 +37,4 @@ To install the NWS Voucher Redeem Shopify App, follow these simple steps:
 4. **Discount Application**: The generated coupon is automatically applied as a discount to the customer's order.
 
 5. **Final Checkout**: Customers proceed to the final checkout with the discounted amount.
+

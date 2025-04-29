@@ -1,0 +1,42 @@
+<voucher-widget1 data-id="{{ block.id }}">
+  {%- if block.settings.heading -%}
+    <!-- <h2>{{ block.settings.heading }}</h2> -->
+  {%- endif -%}
+</voucher-widget1>
+<script type="text/javascript">
+  shopify_inside_customer = '';
+  shopify_inside_customer_email = '';
+</script>
+{%- if customer.id -%}
+<script type="text/javascript">
+  shopify_inside_customer = '{{ customer.id }}';
+  shopify_inside_customer_email = '{{ customer.email }}';
+  console.log("shopify_inside_customer",shopify_inside_customer);
+</script>
+{%- endif -%}
+
+{%- if product.id -%}
+<script type="text/javascript">
+  shopify_inside_product = '{{ product.id }}';
+  let shopify_inside_product_type = '{{ product.type }}';
+  let shopify_inside_product_price = '{{ product.price }}';
+</script>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Voucher Widget",
+    "target": "section",
+    "stylesheet": "voucher-widget.css",
+    "javascript": "voucher-widget.js",
+    "templates": ["product","cart"],
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Voucher Widget"
+      }
+    ]
+  }
+{% endschema %}
